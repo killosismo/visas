@@ -17,9 +17,9 @@ function About({}: Props) {
           <br/>
           <p>Luego de unos meses, le devolvieron el pasaporte sin visado y 200 dólares del total pagado; perdió el resto y no ha podido salir. Supuestamente el agente que le haría el trámite quedó atrapado en Juana Méndez, ciudad fronteriza a donde se dirigió para gestionar la visa fácilmente. “Conozco a otras personas que han experimentado la misma situación. Gente que perdió su dinero”.</p>
           <br/>
-          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1XjsAqEbVNPyRjIA_hG-YgauaVWh4rBip/preview" allow="autoplay"></iframe>
+          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1rk6Yjkaxn_icDK5i5EzCRzYZQETyQAI6/preview" allow="autoplay"></iframe>
           <br/>
-          <p>En Haití hay un “mercado negro y paralelo” en la emisión de visas, admite desde la sala de su casa en la catastrófica ciudad de Puerto Príncipe, el excanciller haitiano Claude Joseph. Algunos, como Wildréne son estafados por las agencias de viaje y agentes que ofrecen estos trámites en un mes. Sin embargo, de acuerdo con la Cancillería dominicana las solicitudes de visas deben ser personales y directamente en el Consulado o la Embajada, de no ser así es un proceso irregular, indica la Ley 875 sobre Visados.</p>
+          <p>En Haití hay un “mercado negro y paralelo” en la emisión de visas, admite desde la sala de su casa, en la catastrófica ciudad de Puerto Príncipe, el excanciller haitiano Claude Joseph. Algunos, como Wildréne son estafados por las agencias de viaje y agentes que ofrecen estos trámites en un mes. Sin embargo, de acuerdo con la Cancillería dominicana las solicitudes de visas deben ser personales y directamente en el Consulado o la Embajada, de no ser así es un proceso irregular, indica la Ley 875 sobre Visados.</p>
           <br/>
           <p>“La estructura de este mercado negro es que ya la población no tiene acceso directo al consulado, es decir si viene al consulado con sus documentos y su dinero, no tienen acceso, dicen que no hay visas. Entonces te fuerzan a pasar por unas agencias que trabajan con el consulado y es a través de esa agencia que tienes que pasar y ellos ponen el precio que quieran”, explica Joseph, en una entrevista en septiembre para esta investigación de Listín Diario y CONNECTAS.</p>
           <br/>
@@ -71,7 +71,7 @@ function About({}: Props) {
           <br/>
           <p>De León era subdirector nacional de Investigaciones de República Dominicana cuando estalló un sonado escándalo de supuesta venta de visas, con el que se destituyó al anterior cónsul de Juana Méndez, José Altagracia Valenzuela Arias.</p>
           <br/>
-          <h1 className='lg:text-6xl font-semibold dmax-w-3xl items-center justify-center text-center'>Visas sin rostro: el “modus operandi”</h1>
+          <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>Visas sin rostro: el “modus operandi”</h1>
           <br/>
           <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1VXDv_6I4znOXC6LuSDEYlzbjPkt44tP4/preview" allow="autoplay"></iframe>
           <br/>
