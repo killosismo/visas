@@ -32,7 +32,7 @@ export default function Hero({}: Props) {
         transition={{
           duration: 5,
         }}
-        className=" lg:text-6xl font-semibold absolute top-640 ease-in-out max-w-3xl">
+        className="text-3xl lg:text-6xl px-5 font-bold absolute top-640 ease-in-out max-w-3xl">
           
         <span className="mr-3 ">{text}</span>
         <Cursor cursorColor="#f7ab0a"/>
