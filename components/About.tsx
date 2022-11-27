@@ -73,9 +73,9 @@ function About({}: Props) {
           <br/>
           <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>Visas sin rostro: el “modus operandi”</h1>
           <br/>
-          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1VXDv_6I4znOXC6LuSDEYlzbjPkt44tP4/preview" allow="autoplay"></iframe>
-          <br/>
           <p>Las agencias de viaje, tanto reales como las que tienen direcciones ficticias, se han multiplicado. Además, el precio de la obtención de este visado por agencias aumenta cada año. Para 2021 el promedio era 400 dólares; en la actualidad es de aproximadamente 600.</p>
+          <br/>
+          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1VXDv_6I4znOXC6LuSDEYlzbjPkt44tP4/preview" allow="autoplay"></iframe>
           <br/>
           <p>El aumento del valor en el mercado negro de visas está relacionado con “un mecanismo de intermediación que sirve para manipular y extorsionar, en el que el Consulado dice que no hay visa, pero las personas las pueden conseguir a través de agencias”, explica el senador Yvan Lorenzo, afirmación en la que coincide el excanciller Claude Joseph. Es decir que se genera una demanda de visas que incide en el incremento del precio.</p>
           <br/>

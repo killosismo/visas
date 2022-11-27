@@ -4,9 +4,7 @@ import {Cursor, useTypewriter} from "react-simple-typewriter";
 import Image from 'next/image'
 import Gif from '../public/ezgif.com-gif-maker lento1.gif'
 import ParaPortada from '../public/Paraportada.jpg'
-import Header from './Header';
-import Listin from '../public/logo-Listin-Diario-copy.png'
-import Connectas from '../public/CONNECTAS_blanco.png'
+
 
 
 
@@ -35,7 +33,7 @@ export default function Hero({}: Props) {
         transition={{
           duration: 5,
         }}
-        className="text-3xl lg:text-6xl px-5 font-bold absolute top-640 ease-in-out max-w-3xl">
+        className="text-3xl lg:text-7xl px-5 font-bold absolute top-640 ease-in-out max-w-5xl">
           
         <span className="mr-3 ">{text}</span>
         <Cursor cursorColor="#f7ab0a"/>
