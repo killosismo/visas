@@ -43,7 +43,7 @@ function About({}: Props) {
           <br/>
         </div>
 
-        <iframe title="Interactive or visual content" className="w-full aspect-[4/3]" src="https://flo.uri.sh/visualisation/11373141/embed" ></iframe> 
+        <iframe title="Interactive or visual content" className="w-full h-screen" src="https://flo.uri.sh/visualisation/11373141/embed" ></iframe> 
           
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
@@ -53,7 +53,7 @@ function About({}: Props) {
           <br/>
         </div>
         
-        <iframe src='https://flo.uri.sh/visualisation/11360157/embed' title='Interactive or visual content' className="w-full aspect-[4/3]"></iframe>
+        <iframe src='https://flo.uri.sh/visualisation/11360157/embed' title='Interactive or visual content' className="w-full h-screen"></iframe>
 
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
@@ -63,7 +63,7 @@ function About({}: Props) {
           <br/>
           <p>Joshua, un periodista haitiano, es otro ejemplo de esta irregularidad. Ha aplicado tres veces a la visa dominicana pero nunca pudo ingresar a la oficina consular, por eso sus opciones fueron agencias de viaje o “terceros”.</p>
           <br/>
-          <iframe title="Conversación con haitiano que ha aplicado por agencia" src="https://view.genial.ly/62cb2e51318e520011c0844c" className="w-full aspect-video"></iframe>
+          <iframe title="Conversación con haitiano que ha aplicado por agencia" src="https://view.genial.ly/62cb2e51318e520011c0844c" className="w-full h-screen"></iframe>
           <br/>
         </div>
         
@@ -195,7 +195,7 @@ function About({}: Props) {
           <p>A pesar de que los haitianos que aplican a la visa dominicana, tanto por la vía oficial de los consulados como por la irregular de las agencias, no entregan los documentos requeridos por el Gobierno, los consulados solo han denegado 178 visados en siete años y medio. Esta cifra representa el 0.02% de la cantidad de visas emitidas. Estos números ni siquiera se acercan a los de solicitantes en Venezuela y Cuba, donde fueron rechazadas entre 41% y 17% de las solicitudes, respectivamente, según información de la Cancillería para esta investigación.</p>
         </div>
 
-        <iframe src='https://flo.uri.sh/visualisation/11372230/embed' title='Interactive or visual content' className="w-full aspect-video"></iframe>
+        <iframe src='https://flo.uri.sh/visualisation/11372230/embed' title='Interactive or visual content' className="w-full h-screen"></iframe>
 
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <p>En algunos casos, parece que fuera cuestión de suerte. Ana solicitó la visa dominicana en dos ocasiones a través del Consulado de Puerto Príncipe, y en ninguna tuvo que llenar formulario ni entregar documentos. O María que hizo el proceso con una agencia de Dajabón, provincia fronteriza dominicana, tanto en 2006 como en 2013, y solo entregó el dinero y el pasaporte. A ambas les dieron visas vigentes, sin mayores inconvenientes.</p>

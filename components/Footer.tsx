@@ -7,7 +7,7 @@ const Footer = (props: Props) => {
   return (
     <div className="bg-[rgb(36,36,36)] text-sm text-white h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-8xl px-10 justify-evenly mx-auto items-center">
         
-        <div className="flex flex-col space-y-3 justify-center">
+        <div className="flex flex-col space-y-2 justify-center">
         <p className=" text-center">Infografías: <br/>Nasha Cruz y Carolina Pichardo</p>
         
         <p className=" text-center">Ilustraciones: <br/>Kharla Ceballos</p>
