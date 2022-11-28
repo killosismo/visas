@@ -22,21 +22,11 @@ export default function Hero({}: Props) {
       
       <Image src={ParaPortada} className='object-cover bg-center w-full h-full mix-blend-overlay' alt={''}/>
       
-        <motion.h1 
-        initial={{
-          opacity:0,
-        }}
-        animate={{
-          opacity:1,
-        }}
-        transition={{
-          duration: 5,
-        }}
-        className="text-3xl lg:text-7xl px-5 font-bold absolute top-640 ease-in-out max-w-5xl">
+        <h1  className="text-3xl lg:text-7xl px-5 font-bold absolute top-640 ease-in-out max-w-5xl">
           
         <span className="mr-3 ">{text}</span>
         <Cursor cursorColor="#f7ab0a"/>
-        </motion.h1>
+        </h1>
         
     </div>
   );

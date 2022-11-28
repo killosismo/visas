@@ -96,7 +96,7 @@ function About({}: Props) {
           <br/>
           <Carousel>
                 <div>
-                    <img src="FotosAgenciasRD/Agencia de viaje JR (Crédito Carolina Pichardo).jpeg" />
+                    <img src="FotosAgenciasRD/Agencia de viaje JR.jpeg" />
                     
                 </div>
                 <div>
