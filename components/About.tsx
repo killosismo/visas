@@ -43,7 +43,7 @@ function About({}: Props) {
           <br/>
         </div>
 
-        <iframe title="Interactive or visual content" className="w-full aspect-video" src="https://flo.uri.sh/visualisation/11373141/embed" ></iframe> 
+        <iframe title="Interactive or visual content" className="w-full aspect-[4/3]" src="https://flo.uri.sh/visualisation/11373141/embed" ></iframe> 
           
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
@@ -53,7 +53,7 @@ function About({}: Props) {
           <br/>
         </div>
         
-        <iframe src='https://flo.uri.sh/visualisation/11360157/embed' title='Interactive or visual content' className="w-full aspect-video"></iframe>
+        <iframe src='https://flo.uri.sh/visualisation/11360157/embed' title='Interactive or visual content' className="w-full aspect-[4/3]"></iframe>
 
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>

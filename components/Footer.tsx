@@ -20,7 +20,7 @@ const Footer = (props: Props) => {
 
         <p className=" text-center">Reportaje escrito por Carolina Pichardo con reportería en Haití del periodista Milo Milfort para Listín Diario y CONNECTAS. Esta investigación se realizó con el apoyo del International Center for Journalists (ICFJ), en el marco de la Iniciativa para el Periodismo de Investigación en las Américas.</p>
         
-        <a href='"https://www.connectas.org/equipo-connectas/"'><p className=" text-center" >Acompañamiento editorial y multimedia: <br/>Equipo CONNECTAS</p></a>
+        <a href="https://www.connectas.org/equipo-connectas/"><p className=" text-center" >Acompañamiento editorial y multimedia: <br/>Equipo CONNECTAS</p></a>
         <p className=" text-center">Una investigación de:</p>
 
         <div className="flex items-center justify-center">
