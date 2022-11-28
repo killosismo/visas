@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Gallery from './Gallery'
 import Gallery2 from './Gallery2'
 import Gallery3 from './Gallery3'
@@ -16,8 +17,6 @@ function About({}: Props) {
           <p>“Somos jóvenes y no trabajamos, es un gran sacrificio poder encontrar este dinero. No hay futuro en el país. No hay condiciones para vivir. Así que tienes que pensar en irte”, dice Marie Wildrène Bonhomme, quien pagó 350 dólares a una agencia de viaje en agosto de 2021 para conseguir una visa dominicana y poder salir de Haití.</p>
           <br/>
           <p>Luego de unos meses, le devolvieron el pasaporte sin visado y 200 dólares del total pagado; perdió el resto y no ha podido salir. Supuestamente el agente que le haría el trámite quedó atrapado en Juana Méndez, ciudad fronteriza a donde se dirigió para gestionar la visa fácilmente. “Conozco a otras personas que han experimentado la misma situación. Gente que perdió su dinero”.</p>
-          <br/>
-          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1rk6Yjkaxn_icDK5i5EzCRzYZQETyQAI6/preview" allow="autoplay"></iframe>
           <br/>
           <p>En Haití hay un “mercado negro y paralelo” en la emisión de visas, admite desde la sala de su casa, en la catastrófica ciudad de Puerto Príncipe, el excanciller haitiano Claude Joseph. Algunos, como Wildréne son estafados por las agencias de viaje y agentes que ofrecen estos trámites en un mes. Sin embargo, de acuerdo con la Cancillería dominicana las solicitudes de visas deben ser personales y directamente en el Consulado o la Embajada, de no ser así es un proceso irregular, indica la Ley 875 sobre Visados.</p>
           <br/>
@@ -71,15 +70,15 @@ function About({}: Props) {
           <br/>
           <p>De León era subdirector nacional de Investigaciones de República Dominicana cuando estalló un sonado escándalo de supuesta venta de visas, con el que se destituyó al anterior cónsul de Juana Méndez, José Altagracia Valenzuela Arias.</p>
           <br/>
-          <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>Visas sin rostro: el “modus operandi”</h1>
+          <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>Visas sin rostro: el “modus operandi”</h1>
           <br/>
           <p>Las agencias de viaje, tanto reales como las que tienen direcciones ficticias, se han multiplicado. Además, el precio de la obtención de este visado por agencias aumenta cada año. Para 2021 el promedio era 400 dólares; en la actualidad es de aproximadamente 600.</p>
-          <br/>
-          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1VXDv_6I4znOXC6LuSDEYlzbjPkt44tP4/preview" allow="autoplay"></iframe>
           <br/>
           <p>El aumento del valor en el mercado negro de visas está relacionado con “un mecanismo de intermediación que sirve para manipular y extorsionar, en el que el Consulado dice que no hay visa, pero las personas las pueden conseguir a través de agencias”, explica el senador Yvan Lorenzo, afirmación en la que coincide el excanciller Claude Joseph. Es decir que se genera una demanda de visas que incide en el incremento del precio.</p>
           <br/>
           <p>Anabelle es la dueña de una agencia de viajes en Puerto Príncipe y aclara que las agencias no emiten la visa, sino que pasa por diferentes procesos y personas hasta llegar al Consulado. Esta ruta comienza cuando el solicitante le entrega al agente el pasaporte y el dinero; ella dice que se queda con 20 dólares del total pagado, y le paga otros 20 a una persona de “su confianza”, y así va pasando por otras tres manos hasta llegar al Consulado donde, según revela, se pueden quedar con hasta 400 dólares.</p>
+          <br/>
+          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1VXDv_6I4znOXC6LuSDEYlzbjPkt44tP4/preview" allow="autoplay"></iframe>
           <br/>
           <p>Los solicitantes no son solo de Haití. Algunos haitianos solicitan la visa desde República Dominicana para regularizar su estatus. Así hizo Marcos quien en 2007 entró a territorio dominicano ilegalmente y, meses después, pagó 300 dólares a un buscón (persona que realiza los trámites de visas dominicanas) que viajaba semanalmente a la ciudad de Belladere, en Haití. Al cabo de un mes, la visa de negocios estaba en sus manos en Santo Domingo.</p>
           <br/>
@@ -93,7 +92,7 @@ function About({}: Props) {
 
         <div className="max-w-3xl container mx-auto justify-center">
           <br/>
-          <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>Una irregularidad a simple vista</h1>
+          <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>Una irregularidad a simple vista</h1>
           <br/>
         </div>
 
@@ -127,9 +126,9 @@ function About({}: Props) {
           <br/>
           <p>En los últimos siete años, el Consulado de Juana Méndez ha dado 147,354 visas a haitianos y recibido más de 10,211,685 dólares por emisión, según la Cancillería.</p>
           <br/>
-          <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>Venta en redes sociales</h1>
+          <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>Venta en redes sociales</h1>
           <br/>
-          <p>Videos de agencias</p>
+          <iframe className="w-full aspect-video" src="https://drive.google.com/file/d/1rk6Yjkaxn_icDK5i5EzCRzYZQETyQAI6/preview" allow="autoplay"></iframe>
           <br/>
           <p>Las redes sociales se han convertido en espacios donde los tramitadores han encontrado la oportunidad de hacer crecer las agencias de viaje por ser lugares donde hay menos control que en los negocios físicos.</p>
           <br/>
@@ -143,7 +142,7 @@ function About({}: Props) {
           <br/>
           <p>Incluso, a dos meses y medio del cierre de las oficinas consulares debido al incremento de la violencia y la extrema crisis social y política de Haití, agencias como Haideal siguen anunciando en redes sociales visas dominicanas. “Nos dan acceso para volver a tomar 10 visas dominicanas”, anunció en Instagram el pasado 26 de octubre. Otras fotografías que circulan en redes muestran presuntos visados dominicanos emitidos en octubre y noviembre que incluso tienen sellos de migración, aunque no se puede precisar si son legítimos.</p>
           <br/>
-          <h1 className='lg:text-6xl font-semibold max-w-3xl items-center justify-center text-center'>En Haití niegan menos del 1% de las visas</h1>
+          <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>En Haití niegan menos del 1% de las visas</h1>
           <br/>
           <p>En teoría, entregar todos los requerimientos no le garantiza al solicitante tener una respuesta positiva, la decisión final está en manos de la Cancillería. “El funcionario consular no puede decidir si le otorgará o no la visa hasta que usted solicite formalmente y sea evaluada su solicitud por el Ministerio de Relaciones Exteriores”, detalla el Mirex.</p>
           <br/>
@@ -171,9 +170,8 @@ function About({}: Props) {
           <br/>
           <p>Listín Diario solicitó vía telefónica, mensajes de texto, correos y cartas físicas al Ministerio de Relaciones Exteriores una entrevista con el actual viceministro de Asuntos Consulares, Opinio Díaz, así como con los cónsules de Haití para aclarar algunos puntos de esta investigación, pero al cierre de la publicación no hubo respuesta.</p>
           <br/>
-          <p>Reportaje escrito por Carolina Pichardo con reportería en Haití del periodista Milo Milfort para Listín Diario y CONNECTAS. Esta investigación se realizó con el apoyo del International Center for Journalists (ICFJ), en el marco de la Iniciativa para el Periodismo de Investigación en las Américas.</p>
-          <br/>
         </div>
+        <Footer/>
     </div>
   )
 }
