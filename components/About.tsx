@@ -5,6 +5,16 @@ import Gallery2 from './Gallery2'
 import Gallery3 from './Gallery3'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Image from 'next/image';
+import Carousel11 from '../public/FotosAgenciasRD/Agencia de viaje JR.jpeg';
+import Carousel12 from '../public/FotosAgenciasRD/agencia de viaje Ortiz y Peralta Tours.jpeg';
+import Carousel13 from '../public/FotosAgenciasRD/Five stars turismo.jpeg';
+import Carousel21 from '../public/FotosHaiti/photo_5143384884021145242_y.jpg';
+import Carousel22 from '../public/FotosHaiti/photo_5143384884021145252_y.jpg';
+import Carousel23 from '../public/FotosHaiti/photo_5143384884021145259_y.jpg';
+import Carousel24 from '../public/FotosHaiti/photo_5143384884021145262_y.jpg';
+import Carousel25 from '../public/FotosHaiti/photo_5143384884021145264_y.jpg';
+
 
 
 type Props = {}
@@ -96,16 +106,16 @@ function About({}: Props) {
           <br/>
           <Carousel>
                 <div>
-                    <img src="FotosAgenciasRD/Agencia de viaje JR.jpeg" />
+                <Image src={Carousel11} alt={''}/>
                     
                 </div>
                 <div>
-                    <img src="FotosAgenciasRD/agencia de viaje Ortiz y Peralta Tours (Crédito Jorge Luis Martínez).JPG" />
+                <Image src={Carousel12} alt={''}/>
                     
                 </div>
                 
                 <div>
-                    <img src="FotosAgenciasRD/Five stars turismo.JPG" />
+                <Image src={Carousel13} alt={''}/>
                     
                 </div>
                 
@@ -132,24 +142,24 @@ function About({}: Props) {
           <br/>
           <Carousel>
                 <div>
-                    <img src="FotosHaiti/photo_5143384884021145242_y.jpg" />
+                <Image src={Carousel21} alt={''}/>
                     
                 </div>
                 <div>
-                    <img src="FotosHaiti/photo_5143384884021145252_y.jpg" />
+                <Image src={Carousel22} alt={''}/>
                     
                 </div>
                 
                 <div>
-                    <img src="FotosHaiti/photo_5143384884021145259_y.jfif" />
+                <Image src={Carousel23} alt={''}/>
                     
                 </div>
                 <div>
-                    <img src="FotosHaiti/photo_5143384884021145262_y.jfif" />
+                <Image src={Carousel24} alt={''}/>
                     
                 </div>
                 <div>
-                    <img src="FotosHaiti/photo_5143384884021145264_y.jfif" />
+                <Image src={Carousel25} alt={''}/>
                     
                 </div>
                 

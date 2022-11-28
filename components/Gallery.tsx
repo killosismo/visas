@@ -1,5 +1,11 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import Image from 'next/image'
+import Foto1 from '../public/Agencia/Sec A-1@300x-100.jpg'
+import Foto2 from '../public/Agencia/Sec A-2@300x-100.jpg'
+import Foto3 from '../public/Agencia/Sec A-3@300x-100.jpg'
+import Foto4 from '../public/Agencia/Sec A-4@300x-100.jpg'
+import Foto5 from '../public/Agencia/Sec A-5@300x-100.jpg'
 
 type Props = {}
 
@@ -13,7 +19,7 @@ export default function Gallery({}: Props) {
          
           <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-              <img src='Agencia/Sec A-1@300x-100.jpg' width="500px" />
+              <Image src={Foto1} width="500" alt={''}/>
                 <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>1 - La persona se dirige a la agencia de viajes</span>
@@ -23,7 +29,7 @@ export default function Gallery({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-              <img src='Agencia/Sec A-2@300x-100.jpg' width="500px"/>
+            <Image src={Foto2} width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>2 - Se encuentra con el agente o empleado</span>
@@ -33,7 +39,7 @@ export default function Gallery({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-              <img src='Agencia/Sec A-3@300x-100.jpg' width="500px"/>
+            <Image src={Foto3} width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>3 - Antes de llegar al consulado el pasaporte pasa por algunas cinco personas con distintas comisiones</span>
@@ -43,7 +49,7 @@ export default function Gallery({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-              <img src='Agencia/Sec A-4@300x-100.jpg' width="500px"/>
+            <Image src={Foto4} width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>4 - El pasaporte es visado por un funcionario y llega con una cantidad apróximada de US$400</span>
@@ -53,7 +59,7 @@ export default function Gallery({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <img src='Agencia/Sec A-5@300x-100.jpg' width="500px"/>
+            <Image src={Foto5} width="500" alt={''}/>
             <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>5 - Se entrega otra vez a la agencia que se lo da al solicitante</span>
