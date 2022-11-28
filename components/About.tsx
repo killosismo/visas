@@ -6,6 +6,7 @@ import Gallery3 from './Gallery3'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+
 type Props = {}
 
 function About({}: Props) {

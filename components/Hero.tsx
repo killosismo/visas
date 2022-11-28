@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import React from 'react'
 import {Cursor, useTypewriter} from "react-simple-typewriter";
 import Image from 'next/image'
-import Gif from '../public/ezgif.com-gif-maker lento1.gif'
 import ParaPortada from '../public/Paraportada.jpg'
 
 
@@ -22,7 +21,7 @@ export default function Hero({}: Props) {
     <div className="bg-gradient-to-tl from-black-to-gray flex flex-col items-center justify-center h-screen text-center space-y-8 relative">
       
       <Image src={ParaPortada} className='object-cover bg-center w-full h-full mix-blend-overlay' alt={''}/>
-      <Image src={Gif} className='absolute' alt={''}/>
+      
         <motion.h1 
         initial={{
           opacity:0,
