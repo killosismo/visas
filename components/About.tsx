@@ -3,7 +3,8 @@ import Footer from './Footer'
 import Gallery from './Gallery'
 import Gallery2 from './Gallery2'
 import Gallery3 from './Gallery3'
-
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 type Props = {}
 
@@ -26,9 +27,7 @@ function About({}: Props) {
           <br/>
         </div>
         
-          <Gallery2/>
-        
-        
+        <Gallery2/>
         
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
@@ -94,9 +93,25 @@ function About({}: Props) {
           <br/>
           <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>Una irregularidad a simple vista</h1>
           <br/>
+          <Carousel>
+                <div>
+                    <img src="FotosAgenciasRD/Agencia de viaje JR (Crédito Carolina Pichardo).jpeg" />
+                    
+                </div>
+                <div>
+                    <img src="FotosAgenciasRD/agencia de viaje Ortiz y Peralta Tours (Crédito Jorge Luis Martínez).JPG" />
+                    
+                </div>
+                
+                <div>
+                    <img src="FotosAgenciasRD/Five stars turismo.JPG" />
+                    
+                </div>
+                
+            </Carousel>
         </div>
 
-        <p>Galeria Fotos de agencias</p>
+        
 
         <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
@@ -114,6 +129,31 @@ function About({}: Props) {
           <br/>
           <p>Cerca de estas oficinas de inmigración, situadas a menos de un kilómetro del Palacio Nacional haitiano, se reúnen vendedores de alimentos, mototaxis y, sobre todo, buscones. Algunas están alojadas en un espacio físico identificable, otras son simplemente personas acampadas en una esquina o sentadas en un auto o, al menos, utilizando direcciones ficticias. "El visado dominicano es el más caro y el más difícil de encontrar en Haití en este momento", dijo el gerente de una agencia al que consultamos.</p>
           <br/>
+          <Carousel>
+                <div>
+                    <img src="FotosHaiti/photo_5143384884021145242_y.jpg" />
+                    
+                </div>
+                <div>
+                    <img src="FotosHaiti/photo_5143384884021145252_y.jpg" />
+                    
+                </div>
+                
+                <div>
+                    <img src="FotosHaiti/photo_5143384884021145259_y.jfif" />
+                    
+                </div>
+                <div>
+                    <img src="FotosHaiti/photo_5143384884021145262_y.jfif" />
+                    
+                </div>
+                <div>
+                    <img src="FotosHaiti/photo_5143384884021145264_y.jfif" />
+                    
+                </div>
+                
+            </Carousel>
+            <br/>
           <p>Para los haitianos la visa de Estados Unidos cuesta 120 dólares, la Schengen para la Unión Europea 80 euros, la de Reino Unido 119 dólares y la de Brasil 80 dólares.</p>
           <br/>
           <p>Pagar la visa dominicana con tramitadores no solo implica un costo más alto, sino arriesgarse a perder el dinero, como le pasó a Marie Wildrène y lo mismo, en mayo de este año, al hermano de Dayana Pierre, quien pagó 400 dólares a un empleado de una agencia de viajes con quien había hecho el proceso en otras ocasiones. No fue hasta octubre cuando por fin le fue devuelto el pasaporte, pero no tenía la visa dominicana y perdió su dinero.</p>
@@ -139,8 +179,6 @@ function About({}: Props) {
           <p>Debido al deficiente sistema estatal de Haití, acceder a plataformas de verificación de registros comerciales es una tarea casi titánica. Sin embargo, plataformas internacionales muestran datos que indican que algunas de estas agencias sí están registradas. Las dos más conocidas son Haideal Travel Agency y Five Stars Turismo Travel Agency con más de 73,000 seguidores en Facebook, en conjunto. La primera, creada el 18 de diciembre de 2015, fue seleccionada entre las cinco compañías de tours más importantes en la capital haitiana, de acuerdo con el portal Tourhdq.</p>
           <br/>
           <p>Otra de las más activas en redes sociales es Ann Deal Travel Agency que, el 23 de junio de 2021, publicó un video en Facebook donde se muestra cómo una persona imprime una visa en papel timbrado alusivo a la Cancillería, extrae un papel adhesivo y lo coloca en una página del pasaporte. Luego sella la firma de quien aparenta ser el cónsul de Cabo Haitiano en turno, coloca otro papel plástico para proteger la visa y, por último, escanea el documento en la plataforma.</p>
-          <br/>
-          <p>Incluso, a dos meses y medio del cierre de las oficinas consulares debido al incremento de la violencia y la extrema crisis social y política de Haití, agencias como Haideal siguen anunciando en redes sociales visas dominicanas. “Nos dan acceso para volver a tomar 10 visas dominicanas”, anunció en Instagram el pasado 26 de octubre. Otras fotografías que circulan en redes muestran presuntos visados dominicanos emitidos en octubre y noviembre que incluso tienen sellos de migración, aunque no se puede precisar si son legítimos.</p>
           <br/>
           <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>En Haití niegan menos del 1% de las visas</h1>
           <br/>
