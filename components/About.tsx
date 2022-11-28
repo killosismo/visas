@@ -5,15 +5,9 @@ import Gallery2 from './Gallery2'
 import Gallery3 from './Gallery3'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Image from 'next/image';
-import Carousel11 from '../public/FotosAgenciasRD/Agencia de viaje JR.jpeg';
-import Carousel12 from '../public/FotosAgenciasRD/agencia de viaje Ortiz y Peralta Tours.jpeg';
-import Carousel13 from '../public/FotosAgenciasRD/Five stars turismo.jpeg';
-import Carousel21 from '../public/FotosHaiti/photo_5143384884021145242_y.jpg';
-import Carousel22 from '../public/FotosHaiti/photo_5143384884021145252_y.jpg';
-import Carousel23 from '../public/FotosHaiti/photo_5143384884021145259_y.jpg';
-import Carousel24 from '../public/FotosHaiti/photo_5143384884021145262_y.jpg';
-import Carousel25 from '../public/FotosHaiti/photo_5143384884021145264_y.jpg';
+
+
+
 
 
 
@@ -104,18 +98,19 @@ function About({}: Props) {
           <br/>
           <h1 className='lg:text-4xl text-3xl font-bold max-w-3xl items-center justify-center text-center'>Una irregularidad a simple vista</h1>
           <br/>
-          <Carousel>
+          <Carousel
+          showThumbs={false}>
                 <div>
-                <Image src={Carousel11} alt={''}/>
+                <img src="FotosAgenciasRD/Agencia de viaje JR.jpeg" alt={''}/>
                     
                 </div>
                 <div>
-                <Image src={Carousel12} alt={''}/>
+                <img src="FotosAgenciasRD/agencia de viaje Ortiz y Peralta Tours.jpeg" alt={''}/>
                     
                 </div>
                 
                 <div>
-                <Image src={Carousel13} alt={''}/>
+                <img src="FotosAgenciasRD/Five stars turismo.jpeg" alt={''}/>
                     
                 </div>
                 
@@ -140,26 +135,27 @@ function About({}: Props) {
           <br/>
           <p>Cerca de estas oficinas de inmigración, situadas a menos de un kilómetro del Palacio Nacional haitiano, se reúnen vendedores de alimentos, mototaxis y, sobre todo, buscones. Algunas están alojadas en un espacio físico identificable, otras son simplemente personas acampadas en una esquina o sentadas en un auto o, al menos, utilizando direcciones ficticias. "El visado dominicano es el más caro y el más difícil de encontrar en Haití en este momento", dijo el gerente de una agencia al que consultamos.</p>
           <br/>
-          <Carousel>
+          <Carousel
+          showThumbs={false}>
                 <div>
-                <Image src={Carousel21} alt={''}/>
+                <img src="FotosHaiti/photo_5143384884021145242_y.jpg" alt={''}/>
                     
                 </div>
                 <div>
-                <Image src={Carousel22} alt={''}/>
+                <img src="FotosHaiti/photo_5143384884021145252_y.jpg" alt={''}/>
                     
                 </div>
                 
                 <div>
-                <Image src={Carousel23} alt={''}/>
+                <img src="FotosHaiti/photo_5143384884021145259_y.jpg" alt={''}/>
                     
                 </div>
                 <div>
-                <Image src={Carousel24} alt={''}/>
+                <img src="FotosHaiti/photo_5143384884021145262_y.jpg" alt={''}/>
                     
                 </div>
                 <div>
-                <Image src={Carousel25} alt={''}/>
+                <img src="FotosHaiti/photo_5143384884021145264_y.jpg" alt={''}/>
                     
                 </div>
                 

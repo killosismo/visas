@@ -1,10 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import Image from 'next/image'
-import Foto1 from '../public/Consulado/Sec C-1@300x-100.jpg'
-import Foto2 from '../public/Consulado/Sec C-2@300x-100.jpg'
-import Foto3 from '../public/Consulado/Sec C-3@300x-100.jpg'
-import Foto4 from '../public/Consulado/Sec C-4@300x-100.jpg'
+
 
 
 type Props = {}
@@ -20,7 +16,7 @@ function Gallery2({}: Props) {
         
           <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto1} width="500" alt={''}/>
+            <img src="Consulado/Sec C-1@300x-100.jpg" width="500" alt={''}/>
                 <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>1 - Se trata de hacer cita en el consulado, sin embargo la página sólo arroja errores</span>
@@ -30,7 +26,7 @@ function Gallery2({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto2} width="500" alt={''}/>
+            <img src="Consulado/Sec C-2@300x-100.jpg" width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>2 - Tampoco funciona llamar por teléfono, no toman la llamada</span>
@@ -40,7 +36,7 @@ function Gallery2({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto3} width="500" alt={''}/>
+            <img src="Consulado/Sec C-3@300x-100.jpg" width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>3 - La fila para llegar al consulado es interminable, luego de horas en línea no te dejan entrar a las oficinas</span>
@@ -50,7 +46,7 @@ function Gallery2({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto4} width="500" alt={''}/>
+            <img src="Consulado/Sec C-4@300x-100.jpg" width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>4 - Entregas el pasaporte y el dinero a una persona del consulado y esperas a que te llamen para informarte si está listo o no</span>

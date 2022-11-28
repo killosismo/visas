@@ -1,8 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-import Listin from '../public/logo-Listin-Diario-copy.png'
-import Connectas from '../public/CONNECTAS_blanco.png'
-import Icfj from '../public/horizontal_white_Name_on white.png'
+
 
 type Props = {}
 
@@ -23,9 +20,9 @@ const Footer = (props: Props) => {
 
         <p className=" text-center">Reportaje escrito por Carolina Pichardo con reportería en Haití del periodista Milo Milfort para Listín Diario y CONNECTAS. Esta investigación se realizó con el apoyo del International Center for Journalists (ICFJ), en el marco de la Iniciativa para el Periodismo de Investigación en las Américas.</p>
         <div className="columns-3">
-        <Image src={Listin} width="300" alt={''}/>
-        <Image src={Connectas} width="300" className='' alt={''}/>
-        <Image src={Icfj} width="300" alt={''}/>
+        <img src="logo-Listin-Diario-copy.png" width="300" alt={''}/>
+        <img src="CONNECTAS_blanco.png" width="300" className='' alt={''}/>
+        <img src="horizontal_white_Name_on white.png" width="300" alt={''}/>
         </div>
         </div> 
         

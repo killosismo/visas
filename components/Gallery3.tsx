@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import Image from 'next/image'
-import Foto1 from '../public/Cancilleria/Sec Cc-1@300x-100.jpg'
-import Foto2 from '../public/Cancilleria/Sec Cc-2@300x-100.jpg'
-import Foto3 from '../public/Cancilleria/Sec Cc-3 @300x - 100.jpg'
+
+
 
 
 type Props = {}
@@ -19,7 +17,7 @@ function Gallery3({}: Props) {
        
           <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto1} width="500" alt={''}/>
+            <img src="Cancilleria/Sec Cc-1@300x-100.jpg" width="500" alt={''}/>
                 <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>1 - El solicitante debe llenar el formulario de visa en línea</span>
@@ -29,7 +27,7 @@ function Gallery3({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto2} width="500" alt={''}/>
+            <img src="Cancilleria/Sec Cc-2@300x-100.jpg" width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                   <h4 className="text-4xl font-semibold text-center">
                     <span>2 - Debe llevar los documentos necesarios a la Cancillería</span>
@@ -39,7 +37,7 @@ function Gallery3({}: Props) {
             </div>
 
             <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <Image src={Foto3} width="500" alt={''}/>
+            <img src="Cancilleria/Sec Cc-3 @300x - 100.jpg" width="500" alt={''}/>
               <div className="space-y-10 px-0 md:px:10 max-w-6xl" >
                 <h4 className="text-4xl font-semibold text-center">
                   <span>3 - Luego se debe esperar a que te informen si la visa fue aceptada o denegada</span>
