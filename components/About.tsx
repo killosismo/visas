@@ -18,6 +18,7 @@ function About({}: Props) {
     
     <div className="flex-col h-screen justify-center items-center text-black   text-lg scroll-smooth">
       
+      
          <div className="max-w-3xl container mx-auto justify-center px-5">
           <br/>
           <p>“Somos jóvenes y no trabajamos, es un gran sacrificio poder encontrar este dinero. No hay futuro en el país. No hay condiciones para vivir. Así que tienes que pensar en irte”, dice Marie Wildrène Bonhomme, quien pagó 350 dólares a una agencia de viaje en agosto de 2021 para conseguir una visa dominicana y poder salir de Haití.</p>
